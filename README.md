@@ -5,12 +5,12 @@ A function that returns an allocated pointer to a line every time a next line is
 Include the header in your program
 and then call like:
 ```c
-	char	*line;
-	int		fd = open("somerandomfile.txt", "r");
+char	*line;
+int	fd = open("somerandomfile.txt", "r");
 
-	while (get_next_line(fd, &line) > 0) {
-  	printf("%s\n", line);
-    free(line);
+while (get_next_line(fd, &line) > 0) {
+  printf("%s\n", line);
+  free(line);
   }
 ```
 
