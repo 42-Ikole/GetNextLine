@@ -1,5 +1,5 @@
 # GetNextLine
-A function that returns an allocated pointer to a line every time a next line is found until EOF :D
+A function that allocates a line every time a next line is found until EOF :D
 
 ## ✅ usage
 Include the header in your program
