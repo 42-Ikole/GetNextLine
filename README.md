@@ -15,7 +15,7 @@ while (get_next_line(fd, &line) > 0) {
 ```
 
 ### ❗ note
-- get_next_line returns the amount of bytes read unless eof is reached in which case it returns 0 or an error occurred then -1 is returned
+- get_next_line returns **the amount of bytes read** unless eof is reached in which case it returns **0** or an error occurred then **-1** is returned
 
 ### 💤 code
 **prototype**
